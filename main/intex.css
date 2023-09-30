@@ -294,6 +294,7 @@ html {
     grid-template-columns:repeat(3,1fr);
   }
 
+
   .pick--item1{
     margin: 0;
     padding: 0;
@@ -310,10 +311,35 @@ html {
 
   .pick--hr{
     color: #FDD6BA;
-    width: 1300px;
+    width: 1250px;
     height: 5px;
-    margin-bottom: 180px;
+    margin-top: 30px;
+   
+  
   }
+
+.button:hover{
+  background-color: white;
+  color: blue;
+  border: 2px solid blue;
+}
+
+.span--us{
+     margin-bottom: 200px;
+     margin-top: -30px;
+}
+
+.span--us1{
+  margin-bottom: 200px;
+  margin-top: -30px;
+  margin-left: 610px;
+}
+
+.span--us2{
+  margin-bottom: 200px;
+  margin-top: -30px;
+  margin-left: 546px;
+}
 
   .pick--item{
     padding-left: 60px;
@@ -371,9 +397,6 @@ html {
   padding-left: 240px;
 }
 
-.footer--ikon:hover{
- background-color:blue;
-}
 
 .footer--link{
   color: #333d4b;
@@ -381,4 +404,15 @@ html {
 
 .footer--link:hover{
   color: white;
+}
+
+
+.footer--ikonlar{
+  padding-left: 20px;
+}
+
+.footer--ikonlar:hover{
+  color: #FDD6BA;
+  background-color: red;
+
 }
